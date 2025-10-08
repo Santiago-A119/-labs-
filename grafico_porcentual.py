@@ -1,6 +1,6 @@
 
 def percentage_chart(numbers):
-    print("=== SIMPLE PERCENTAGE CHART ===\n")
+    print("=== PERCENTAGE CHART ===\n")
 
     
     valid = [n for n in numbers if (5 <= n <= 10) or (-10 <= n <= -5)]
@@ -22,3 +22,4 @@ def percentage_chart(numbers):
 
 numbers = [-10, -8, -4, 5, 7, 9, 12]
 percentage_chart(numbers)
+
